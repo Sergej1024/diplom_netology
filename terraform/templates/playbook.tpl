@@ -1,6 +1,6 @@
 ---
 - name: Get kuber credentials
-  hosts: diploma-control-${workspace}-0
+  hosts: diplom-control-${workspace}-0
   become: yes
   gather_facts: yes
   tasks:

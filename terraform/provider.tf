@@ -10,8 +10,8 @@ terraform {
     bucket     = "dimplom-bucket"
     region     = "ru-central1"
     key        = "terraform.tfstate"
-    access_key = "YCAJElgc4RvhrFxZ_DGh5-Anw"
-    secret_key = "YCPwI3QdnlUwZ3oBPUxbhG22aJv3adWb9R6WO0JS"
+    access_key = "YCAJEOnx6k5N6Dv7qvECt_lRk"
+    secret_key = "YCPymA5I_4xrVO-FUNVkcvj_LmSY-la0Vl3EkDWa"
 
     skip_region_validation      = true
     skip_credentials_validation = true

@@ -1,5 +1,5 @@
 repos:
-- id: github.com/${login}/diploma-terraform
+- id: github.com/${login}/diplom_netology
   branch: /.*/
   allowed_overrides: [apply_requirements, workflow, delete_source_branch_on_merge]
   allow_custom_workflows: true

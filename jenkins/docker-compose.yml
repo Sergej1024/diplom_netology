@@ -2,9 +2,9 @@ services:
   jenkins:
     # image: sergej1024/jenkins-with-plugins:latest
     image: jenkins/jenkins:2.361.2-lts-jdk11
-    # user: root
-    # group_add:
-    #   - 1001
+    user: root
+    group_add:
+      - "1001"
     privileged: true
     ports:
       - 8090:8080
